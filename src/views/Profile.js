@@ -41,6 +41,9 @@ export const ProfileComponent = () => {
   console.log(user);
   console.log(userMetadata);
 
+  const userInfo = [user, userMetadata];
+  console.log(userInfo);
+
   return (
     isAuthenticated && (
       <div>
