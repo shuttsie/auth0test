@@ -1,6 +1,8 @@
 {
   "domain": "fiservseminars.us.auth0.com",
-  "clientId": "WLhcC1iMRidSuIr2wfJVTDaScUpNTsxW",
+  "grant_type": "client_credentials",
+  "clientId": "5INwn0H7gwq2oyrAiR1Acau39UhELs0Q",
+  "clientSecret": "VfSGP8eMiN_ZTLLRh8RLzmUyjxSLwrIJPs3Fhrjpjr_2s8hLXcKmhk7C2avvQzzt",
   "audience": "https://fiservseminars.us.auth0.com/api/v2/",
   "scope": "read:current_user update:current_user_metadata"
 }
