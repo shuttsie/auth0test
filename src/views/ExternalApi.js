@@ -5,7 +5,7 @@ import { useAuth0, withAuthenticationRequired } from '@auth0/auth0-react';
 import config from '../auth_config.json';
 import Loading from '../components/Loading';
 
-const { apiOrigin = 'https://fiservseminars.us.auth0.com/' } = config;
+const { apiOrigin = 'https://fiservseminars.us.auth0.com' } = config;
 
 export const ExternalApiComponent = () => {
   const [state, setState] = useState({
