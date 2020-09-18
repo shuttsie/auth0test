@@ -51,7 +51,6 @@ export const ProfileComponent = () => {
         <h2>{user.name}</h2>
         <p>{user.email}</p>
         <h3>User Metadata</h3>
-        <p>{userInfo.userMetadata.bank_name}</p>
         {userMetadata ? (
           <pre>{JSON.stringify(userMetadata, null, 2)}</pre>
         ) : (
