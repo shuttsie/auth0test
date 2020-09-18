@@ -2,7 +2,7 @@ var request = require('request');
 
 var options = {
   method: 'GET',
-  url: 'https://fiservseminars.us.auth0.com/api/v2/users',
+  url: 'https://fiservseminars.us.auth0.com/api/v2/clients',
   headers: {
     'content-type': 'application/json',
     authorization:
