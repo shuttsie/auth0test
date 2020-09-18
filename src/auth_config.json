@@ -1,5 +1,6 @@
 {
   "domain": "fiservseminars.us.auth0.com",
   "clientId": "WLhcC1iMRidSuIr2wfJVTDaScUpNTsxW",
-  "audience": "https://aws.amazon.com"
+  "audience": "https://fiservseminars.us.auth0.com/api/v2/",
+  "scope": "read:current_user update:current_user_metadata"
 }
