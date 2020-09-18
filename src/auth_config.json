@@ -1,8 +1,8 @@
 {
   "domain": "fiservseminars.us.auth0.com",
   "grant_type": "client_credentials",
-  "clientId": "5INwn0H7gwq2oyrAiR1Acau39UhELs0Q",
-  "clientSecret": "VfSGP8eMiN_ZTLLRh8RLzmUyjxSLwrIJPs3Fhrjpjr_2s8hLXcKmhk7C2avvQzzt",
+  "clientId": "WLhcC1iMRidSuIr2wfJVTDaScUpNTsxW",
+  "clientSecret": "gNZndoFsm9KgD7BB_iTMortLcqByYaxrIpGR9vA_QFsqt_RwolUC0cLsez5eQvBw",
   "audience": "https://fiservseminars.us.auth0.com/api/v2/",
   "scope": "read:current_user update:current_user_metadata"
 }
