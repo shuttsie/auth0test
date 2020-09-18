@@ -8,6 +8,7 @@ import { useAuth0, withAuthenticationRequired } from '@auth0/auth0-react';
 export const ProfileComponent = () => {
   const { user, isAuthenticated, getAccessTokenSilently } = useAuth0();
   const [userMetadata, setUserMetadata] = useState(null);
+
   useEffect(() => {
     const getUserMetadata = async () => {
       const domain = 'fiservseminars.us.auth0.com';
@@ -47,7 +48,6 @@ export const ProfileComponent = () => {
         <h2>{user.name}</h2>
         <p>{user.email}</p>
         <h3>User Metadata</h3>
-        <h3>{userMetadata.bank_title}</h3>
         {userMetadata ? (
           <pre>{JSON.stringify(userMetadata, null, 2)}</pre>
         ) : (
